@@ -36,6 +36,7 @@ label {
 }
 
 textarea {
+    width: 500px;
     padding: 5px;
     font-size: 16px;
     border-radius: 3px;
@@ -49,7 +50,7 @@ input {
     border-radius: 3px;
     background-color: #000;
     color: #fff;
-    height: 24px;
+    height: 32px;
     padding: 5px;
 }
 
@@ -57,7 +58,7 @@ button {
     all: unset;
     cursor: pointer;
     margin-left: 10px;
-    padding: 3px 10px;
+    padding: 6px 12px;
     border-radius: 3px;
     color: white;
     background-color: #1d55ca;
