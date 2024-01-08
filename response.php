@@ -16,23 +16,24 @@ $censored_text = str_replace($get_badword, '***', $get_text);
 
 <body>
     <div class="container">
-        <h1>Risposta</h1>
+        <h1>Il tuo Testo</h1>
         <p>
             <?php
             echo $get_text;
             ?>
         </p>
-        <div>
+        <h2>
             Il paragrafo è lungo <?php echo strlen($get_text); ?> caratteri.
-        </div>
+        </h2>
+        <h1>Testo Censurato</h1>
         <p>
             <?php
             echo $censored_text;
             ?>
         </p>
-        <div>
+        <h2>
             Il paragrafo è lungo <?php echo strlen($censored_text); ?> caratteri.
-        </div>
+        </h2>
     </div>
 </body>
 
