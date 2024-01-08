@@ -22,6 +22,14 @@ $get_badword = $_GET['badword'];
     <div>
         Il paragrafo è lungo <?php echo strlen($get_text); ?> caratteri.
     </div>
+    <p>
+        <?php
+        echo str_replace($get_badword, '***', $get_text);
+        ?>
+    </p>
+    <div>
+        Il paragrafo è lungo <?php echo strlen($get_text); ?> caratteri.
+    </div>
 </body>
 
 </html>
